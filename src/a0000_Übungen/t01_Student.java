@@ -1,16 +1,16 @@
-package a0000_Übungen.student;
+package a0000_Übungen;
 
-public class Student {
+public class t01_Student {
 	private String name;
 	private int matrikelnummer;
-	private Studiengang studiengang;
+	private t01_Studiengang studiengang;
 	
-	public Student(String name, int matrikelnummer) {
+	public t01_Student(String name, int matrikelnummer) {
 		setName(name);
 		setMatrikelnummer(matrikelnummer);
 	}
 	
-	public Student(String name, int matrikelnummer, Studiengang studiengang) {
+	public t01_Student(String name, int matrikelnummer, t01_Studiengang studiengang) {
 		this(name, matrikelnummer);
 		setStudiengang(studiengang);
 	}
@@ -36,11 +36,11 @@ public class Student {
 		return name;
 	}
 
-	public Studiengang getStudiengang() {
+	public t01_Studiengang getStudiengang() {
 		return studiengang;
 	}
 
-	public void setStudiengang(Studiengang studiengang) {
+	public void setStudiengang(t01_Studiengang studiengang) {
 		if (studiengang == null) {
 			throw new RuntimeException("Studiengang ungueltig.");
 		}

@@ -1,6 +1,6 @@
-package a0000_Übungen.geo;
+package a0000_Übungen;
 
-public class TestKreis {
+public class KreisTest {
 
 	public static void main(String[] args) {
 		
