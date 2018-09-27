@@ -1,4 +1,4 @@
-package a0146_Aggregation_Freizeit;
+package a0146_Assoziation_Freizeit;
 
 import java.util.Arrays;
 
@@ -36,6 +36,4 @@ public class Mensch {
 			return false;
 		return true;
 	}
-	
-	
 }
