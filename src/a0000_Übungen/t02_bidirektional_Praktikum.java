@@ -67,10 +67,6 @@ public class t02_bidirektional_Praktikum {
 	public void setStudent(t02_bidirektional_Student[] student) {
 		this.student = student;
 	}
-	
-	
-	
-
 }
 
 

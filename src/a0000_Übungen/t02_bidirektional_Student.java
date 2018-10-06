@@ -80,5 +80,4 @@ public class t02_bidirektional_Student {
 	public void setPrakrikum(t02_bidirektional_Praktikum[] prakrikum) {
 		this.prakrikum = prakrikum;
 	}
-
 }
